@@ -1,0 +1,10 @@
+let maxLimit = prompt("Enter the Limit of the Double Loop:");
+
+let i, j, sum;
+
+for (i = 0; i < maxLimit; i++) {
+  for (j = 0; j < maxLimit; j++) {
+    sum = i + j;
+    console.log("Loop Points: " + i + ", " + j + " Added Value: " + sum);
+  }
+}
